@@ -1,0 +1,169 @@
+/*  */
+/* Герой */
+/*  */
+.hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../images/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 452px;
+
+  text-align: center;
+  justify-content: center;
+}
+.hero {
+  font-weight: 700;
+}
+.hero-title {
+  margin: 0px;
+  background-position: center;
+  color: $white-text-color;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  background: #2196f3;
+  color: $button-text-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  border: none;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.hero-button:hover {
+  transform: scale(1.08);
+}
+/*  */
+/* Герой */
+/*  */
+
+/* Наши приемущества */
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.project .list {
+  background-color: $portfolio-bg-color;
+}
+.list {
+  padding: 0;
+  margin: 0;
+}
+.advantages {
+  display: flex;
+}
+.item {
+  width: 270px;
+  height: 120px;
+
+  margin-right: 30px;
+}
+.icon-bag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.projects .subtitle {
+  color: $white-text-color;
+}
+.project .text {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.logo .text {
+  color: $white-text-color;
+}
+.text.button {
+  font-weight: 900;
+}
+/* Наши приемущества */
+/*  */
+
+/* Чем мы занимаемся  */
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  margin-top: 0;
+
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.projects .subtitle {
+  color: $white-text-color;
+}
+.cust-marg:not(:last-child) {
+  margin-right: 30px;
+}
+.apps {
+  position: relative;
+}
+.apps-position {
+  color: $white-text-color;
+  position: absolute;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+  z-index: 1;
+}
+/* Чем мы занимаемся  */
